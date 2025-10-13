@@ -1,0 +1,3 @@
+### ransOm
+
+- todo. config dockerfile and www files as to prevent also serving ./ ie ./reame.md, ./Cargo.toml, ./src/lib.rs, ./.devcontainer/dockerfile, ./dockerfile etc...
