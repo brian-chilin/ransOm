@@ -2,8 +2,10 @@
 
     #[wasm_bindgen]
     extern "C" {
-        // Import JavaScript's alert function
-        fn alert(s: &str);
+        fn alert(s: &str); // imporitng js alert function
+
+        #[wasm_bindgen(js_namespace = console)]
+        fn log(s: &str);
     }
 
     #[wasm_bindgen]
@@ -12,7 +14,7 @@
     }
 
     #[wasm_bindgen]
-    pub fn add(a: u32, b: u32) -> u32 {
-        a + b
+    pub fn add(a: u32, b: u32) -> Vec<u32> {
+        vec![a + b, a, b, a+b]
     }
     
