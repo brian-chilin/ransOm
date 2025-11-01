@@ -8,7 +8,7 @@
 
     #[wasm_bindgen]
     pub fn greet(name: &str) {
-        alert(&format!("Hello, {} from Rust WASM!", name));
+        alert(&format!("Hello, {} from Rust WASM! 🙂", name));
     }
 
     #[wasm_bindgen]
