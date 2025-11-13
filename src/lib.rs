@@ -1,4 +1,5 @@
 use wasm_bindgen::prelude::*;
+use ab_glyph::{FontRef, PxScale};
 
 #[wasm_bindgen]
 extern "C" {
