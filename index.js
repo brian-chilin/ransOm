@@ -6,8 +6,8 @@ async function run() {
     const message = greet("js line 6");
     document.body.innerHTML += "<p>https://github.com/brian-chilin/ransOm</p><p>" + add(6, 7) + "</p>";
 
-    const width = 512;
-    const height = 512;
+    const width = 40;
+    const height = 8;
 
     const pixels = generate_image(width, height); // Uint8Array in JS
 
